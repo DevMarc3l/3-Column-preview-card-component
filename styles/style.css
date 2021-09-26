@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 2.2em;
+}
+
+p,
+a {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 3em 1em;
+  color: white;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card {
+  padding: 2.5em;
+}
+
+.card__description {
+  opacity: 0.8;
+  margin-bottom: 3em;
+}
+
+.card__details {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  background-color: white;
+  font-size: 0.9em;
+  padding: 0.7em 2em;
+  border: 2px solid white;
+  border-radius: 25px;
+}
+
+.card__details:hover {
+  background-color: unset;
+  color: white;
+}
+
+.first {
+  background-color: #e38826;
+}
+
+.first > a {
+  color: #e38826;
+}
+
+.second {
+  background-color: #006970;
+}
+
+.second > a {
+  color: #006970;
+}
+
+.third {
+  background-color: #004241;
+}
+
+.third > a {
+  color: #004241;
+}
+
+@media (min-width: 900px) {
+  body,
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
